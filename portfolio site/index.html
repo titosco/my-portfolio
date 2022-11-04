@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e8bf77adac.js" crossorigin="anonymous"></script>
+  <title>My Protfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!----------------------------------------header starts  -->
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Tito<span>'sco</span></h2>
+        <ul id="sidemenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#service">Service</a></li>
+          <!-- <li><a href="#">Skills</a></li> -->
+          <li><a href="#contact">Contact us</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmTwwkhgpRRhrTXqNwKPNcrNWjBLtrXwzkJBMvmFJhvgwRMLrqVnjPQvgrGDnGqtCPrVWg" target="_blank" class="btn"> subscribe</a>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        
+      </nav>
+      <!-- contenst section -->
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>Tella <span>Titobi</span></h1>
+        <h3>I'm a Frontend Developer.</h3>
+        <div class="newsletter">
+          <form>
+            <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmTwwkhgpRRhrTXqNwKPNcrNWjBLtrXwzkJBMvmFJhvgwRMLrqVnjPQvgrGDnGqtCPrVWg" target="_blank" type="submit" name="Submit" value="Lets Start">Lets Start </a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- about section -->
+    <div id="about">
+      <section class="about">
+        <div class="main">
+          <img src="IMG_20180728_003802.JPG">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Developer & <span>Designer</span></h5>
+            <p>I'm a frontend Developer. I can provide clean code and pixel perfect design. I also make reponsive  and interactive website. I am proficient in HTML,CSS and JAVASCRIPT. I create  responsive design websites that is accessible to all users, regardless of their device.</p>
+            <a href=" https://wa.me/08037262119" target="_blank" type="button">Let's Talk</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!------------------- service section start --------------------->
+    <div id="service">
+      <div class="service">
+        <div class="title">
+          <h2>Our Services</h2>
+        </div>
+
+        <div class="box">
+          <div class="card">
+            <i class="fa-solid fa-bars-staggered"></i>
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>Every website should be built with the aim to two things: Firstly, it needs to be responsive on all devices. Secondly, it needs to be fast as possible.</p>
+
+              <!-- <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+              </p> -->
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="fa-regular fa-user"></i>
+            <h5>User Friendly</h5>
+            <div class="pra">
+              <p>Every website should be should have a good User Interface and User Experience design in order for clients to be able to interact with their sites.</p>
+
+              <!-- <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+              </p> -->
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="fa-regular fa-bell"></i>
+            <h5>Saves Time</h5>
+            <div class="pra">
+              <p>My clients trust in me due to the fact that i always deliver on time. My work schedule makes it easier my clients to be able to get their sites on time.</p>
+
+              <!-- <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------- Contact Me ----------------->
+    <div id="contact">
+      <div class="contact-me">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <a class="button-two" href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmTwwkhgpRRhrTXqNwKPNcrNWjBLtrXwzkJBMvmFJhvgwRMLrqVnjPQvgrGDnGqtCPrVWg" target="_blank">Hire Me</a>
+      </div>
+   </div>
+ 
+  <!--------------------footer start----------->
+  <footer>
+    <p>Tella Titobi</p>
+    <div class="social">
+      <a href="https://twitter.com/@Tito_sco" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://linkedin.com/in/titobiloluwa-tella-495616250" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href=" https://wa.me/08037262119" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p class="end">CopyRight by Tito'sco</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
