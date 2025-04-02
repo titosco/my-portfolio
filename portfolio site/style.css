@@ -322,7 +322,7 @@ h4{
   border-radius: 20px;
   margin: 15px;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
   text-align: center;
 }
 .card i{
@@ -457,6 +457,30 @@ h5{
   }
 }
 /* contact me stops */
+/* work start */
+
+.work{
+  display: flex;
+  flex-direction: row;
+  /* min-height: 100vh; */
+  width: 100%;
+  background: #191919;
+}
+.app_portfolio{
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.app_portfolio h2{
+  color: #ffffff;
+  font-size: 75px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+/* work ends */
 /* footer starts */
 footer{
   position: relative;
